@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+
+.bt{
+    padding: 8px 20px; 
+    background: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid 2px #000;
+}
+
+.bt:active{
+    padding: 8px 20px; 
+    background: #ffffff62;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: solid 2px #000;
+}
+
+#resultado{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+td{
+    border: solid 1px #000;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.principalTR{
+    background: #00d3ef62;
+    color: black;
+    font-weight: 600;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none; }
